@@ -44,7 +44,7 @@ _This section is only necessary if you want to fork opensheet and host your own 
 
 opensheet is written as a Node.js [Express](https://expressjs.com) server, which can be hosted on any platform that enables deploying a Node.js server. It also uses a Redis server for caching, but will run fine without caching if Redis isn’t present. 
 
-You may just deploy this fork to heroku with: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/luke-hawk/opensheet)
+You may just deploy this fork to heroku with: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/luke-hawk/opensheet/tree/main)
 
 
 If you host opensheet in your own Railway account or make a fork, you’ll need to get your own Google Sheets API credentials:
