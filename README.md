@@ -42,7 +42,10 @@ I’ve moved the hosted instance from [Vercel](https://vercel.com) to [Railway](
 
 _This section is only necessary if you want to fork opensheet and host your own instance of it. If you don’t want to deal with that, you’re welcome to use my hosted instance at `opensheet.elk.sh`._
 
-opensheet is written as a Node.js [Express](https://expressjs.com) server, which can be hosted on any platform that enables deploying a Node.js server. It also uses a Redis server for caching, but will run fine without caching if Redis isn’t present.
+opensheet is written as a Node.js [Express](https://expressjs.com) server, which can be hosted on any platform that enables deploying a Node.js server. It also uses a Redis server for caching, but will run fine without caching if Redis isn’t present. 
+
+You may just deploy this fork to heroku with: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/luke-hawk/opensheet)
+
 
 If you host opensheet in your own Railway account or make a fork, you’ll need to get your own Google Sheets API credentials:
 
@@ -52,6 +55,8 @@ If you host opensheet in your own Railway account or make a fork, you’ll need 
 4. Fill in any reasonable name, and skip the next two optional steps. Click “Done” to create the set of credentials, which will allow you to access Google Sheets using the API.
 5. Click on this newly created service account, and then go to the “Keys” tab. Create a key of type JSON.
 6. A JSON file containing the service account’s credentials will be downloaded. Open up that file, and copy its entire contents. **You should paste this whole thing into the `GOOGLE_SERVICE_ACCOUNT` environment variable.** Procedures for doing this vary based on deployment provider (Railway, Heroku, etc).
+
+
 
 ## Local development
 

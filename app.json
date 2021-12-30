@@ -1,0 +1,12 @@
+{
+  "name": "Opensheet",
+  "description": "A free, super simple, hosted API for getting Google Sheets as JSON.",
+  "repository": "https://github.com/luke-hawk/opensheet",
+  "keywords": ["node", "express", "google", "sheets"],
+  "env": {
+    "GOOGLE_SERVICE_ACCOUNT": {
+      "description": "Google sheets api credentials",
+      "value": ""
+    }
+  }
+}
